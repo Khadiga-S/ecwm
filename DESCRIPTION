@@ -1,0 +1,24 @@
+Package: ecwm
+Title: Analysis of the Extended Crosswise Model
+Version: 1.0
+Authors@R: 
+    c(person(given = "Maarten",
+           family = "Cruyff",
+           role = c("aut"),
+           email = "m.cruyff@uu.nl",
+           comment = c(ORCID = "0000-0002-6808-8518")),
+      person(given = "Khadiga",
+           family = "Sayed",
+           role = c("ctb", "cre"),
+           email = "k.h.a.sayed@uu.nl"))
+Description: Prevalence estimation and regression analysis for the ECWM.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.0)
+Imports:
+   dplyr (>= 1.0),
+   MASS
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
